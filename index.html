@@ -10,7 +10,7 @@
 
   <div class="container my-3 mt-3">
       <h1 style="text-align:center">Breast Cancer Prediction Model</h1>
-      <img style="width:100%; height:160px" src="{{ url_for('static', filename='images.jpg') }}" alt="My Image">
+      <img style="width:100%; height:160px" src="https://imgs.search.brave.com/cm3lJABM6g1uCdGNRYCv0VLfcmj-LHGxqAdmtl73zpA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aGV4YWhlYWx0aC5j/b20vSW1hZ2Uvd2Vi/cC80ODB4NDgwLzE2/OTQyNDA4NTM1MDUt/NjE3Nzc1MDk0Lndl/YnA" alt="My Image">
           <form action="/predict" method="POST">
             <div class="mb-3">
               <label for="text" class="form-label">Input Breast Cancer Features</label>
@@ -23,7 +23,7 @@
       <p>{{i}}</p>
           {% if i=='Not Cancrouse' %}
             <div class="card my-3 mt-3" style="width: 18rem;">
-              <img src="{{url_for('static', filename='img2.jpg')}}" class="card-img-top" alt="...">
+              <img src="https://imgs.search.brave.com/Lc6xG6T7NTezfpWx5jivIYWdm5F_5iksK6a5uf8x06M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2FuY2VyLmdvdi9z/aXRlcy9nL2ZpbGVz/L3hucnpkbTIxMS9m/aWxlcy9zdHlsZXMv/Y2dvdl9hcnRpY2xl/L3B1YmxpYy9jZ292/X2ltYWdlL21lZGlh/X2ltYWdlLzIwMjIt/MTEvaVN0b2NrLTE1/NTc3MzM4OC5qcGc_/aD1hODgzNjg0NyZp/dG9rPVhfQXZTYTMw" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Not Cancrouse</h5>
                 <p class="card-text">Don't Worry You don't have Breast Cancer Disease, Enjoy your life.</p>
@@ -31,7 +31,7 @@
             </div>
           {% else %}
             <div class="card my-3 mt-3" style="width: 18rem;">
-              <img src="{{url_for('static', filename='img1.png')}}" class="card-img-top" alt="...">
+              <img src="https://imgs.search.brave.com/LXiuy0c0Hn12_-o-Z68d-oUfTchCjGTVDRLo_2-7xSI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTI5/NTAxNTczOC9waG90/by9icmVhc3QtY2Fu/Y2VyLTNkLXJlbmRl/cmluZy1pbGx1c3Ry/YXRpb24td29tYW4t/aG9sZGluZy1oZXIt/YnJlYXN0LXdpdGgt/Ym90aC1oYW5kcy1h/bmQuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWluT3UwYlh5/MjRDVEgtdlUyV0sz/QThMNlR0MjBNQ3ZW/NnZrOXVjVFhvUWc9" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Cancrouse</h5>
                 <p class="card-text">Alert You have a Breast Cancer Disease, check yourself by doctor.</p>
